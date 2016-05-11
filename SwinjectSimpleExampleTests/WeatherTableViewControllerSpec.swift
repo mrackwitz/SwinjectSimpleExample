@@ -9,6 +9,7 @@
 import Quick
 import Nimble
 import Swinject
+import RealmSwift
 @testable import SwinjectSimpleExample
 
 class WeatherTableViewControllerSpec: QuickSpec {
@@ -27,7 +28,16 @@ class WeatherTableViewControllerSpec: QuickSpec {
             container.register(Networking.self) { _ in MockNetwork() }
                 .inObjectScope(.Container)
             container.register(WeatherFetcher.self) { r in
-                WeatherFetcher(networking: r.resolve(Networking.self)!)
+                WeatherFetcher(networking: r.resolve(Networking.self)!,
+                               realm: r.resolve(Realm.self)!)
+            }
+            container.register(Realm.Configuration.self) { _ in
+                var config = Realm.Configuration()
+                config.inMemoryIdentifier = "SwinjectSimpleExample"
+                return config
+            }
+            container.register(Realm.self) { r in
+                try! Realm(configuration: r.resolve(Realm.Configuration.self)!)
             }
             container.register(WeatherTableViewController.self) { r in
                 let controller = WeatherTableViewController()

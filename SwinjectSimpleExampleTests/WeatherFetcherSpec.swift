@@ -10,6 +10,7 @@
 import Quick
 import Nimble
 import Swinject
+import RealmSwift
 @testable import SwinjectSimpleExample
 
 class WeatherFetcherSpec: QuickSpec {
@@ -48,17 +49,28 @@ class WeatherFetcherSpec: QuickSpec {
         var container: Container!
         beforeEach {
             container = Container()
+
+            container.register(Realm.Configuration.self) { _ in
+                var config = Realm.Configuration()
+                config.inMemoryIdentifier = "SwinjectSimpleExample"
+                return config
+            }
+            container.register(Realm.self) { r in
+                try! Realm(configuration: r.resolve(Realm.Configuration.self)!)
+            }
             
             // Registrations for the network using Alamofire.
             container.register(Networking.self) { _ in Network() }
             container.register(WeatherFetcher.self) { r in
-                WeatherFetcher(networking: r.resolve(Networking.self)!)
+                WeatherFetcher(networking: r.resolve(Networking.self)!,
+                               realm: r.resolve(Realm.self)!)
             }
             
             // Registration for the stub network.
             container.register(Networking.self, name: "stub") { _ in StubNetwork() }
             container.register(WeatherFetcher.self, name: "stub") { r in
-                WeatherFetcher(networking: r.resolve(Networking.self, name: "stub")!)
+                WeatherFetcher(networking: r.resolve(Networking.self, name: "stub")!,
+                               realm: r.resolve(Realm.self)!)
             }
         }
         

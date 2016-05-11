@@ -7,6 +7,7 @@
 //
 
 import Swinject
+import RealmSwift
 
 extension SwinjectStoryboard {
     class func setup() {
@@ -15,7 +16,14 @@ extension SwinjectStoryboard {
         }
         defaultContainer.register(Networking.self) { _ in Network() }
         defaultContainer.register(WeatherFetcher.self) { r in
-            WeatherFetcher(networking: r.resolve(Networking.self)!)
+            WeatherFetcher(networking: r.resolve(Networking.self)!,
+                           realm: r.resolve(Realm.self)!)
+        }
+        defaultContainer.register(Realm.Configuration.self) { _ in
+            Realm.Configuration()
+        }
+        defaultContainer.register(Realm.self) { r in
+            try! Realm(configuration: r.resolve(Realm.Configuration.self)!)
         }
     }
 }

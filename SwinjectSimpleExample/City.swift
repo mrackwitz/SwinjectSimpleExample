@@ -6,10 +6,14 @@
 //  Copyright © 2015 Swinject Contributors. All rights reserved.
 //
 
-import Foundation
+import RealmSwift
 
-struct City {
-    let id: Int
-    let name: String
-    let weather: String
+class City: Object {
+    dynamic var id: Int = 0
+    dynamic var name: String = ""
+    dynamic var weather: String = ""
+
+    override static func primaryKey() -> String {
+        return "id"
+    }
 }
