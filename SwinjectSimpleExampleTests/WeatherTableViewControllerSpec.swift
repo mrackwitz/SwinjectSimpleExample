@@ -17,7 +17,7 @@ class WeatherTableViewControllerSpec: QuickSpec {
         var requestCount = 0
         
         func request(response: NSData? -> ()) {
-            requestCount++
+            requestCount += 1
         }
     }
     
