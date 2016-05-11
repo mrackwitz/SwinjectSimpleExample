@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D23A09513581907853700C6 /* Pods_SwinjectSimpleExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A29B4448E7E0D4B438261D /* Pods_SwinjectSimpleExampleTests.framework */; };
+		4EA8D6F0EA4FCA389DD08B49 /* Pods_Tests_SwinjectSimpleExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB811C27622E4C5CF7DA2098 /* Pods_Tests_SwinjectSimpleExampleTests.framework */; };
 		981107861BFED52800B861E1 /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981107851BFED52700B861E1 /* SwinjectStoryboard+Setup.swift */; };
 		9878A1E71B78745C0005ACD9 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878A1E51B78745C0005ACD9 /* City.swift */; };
 		9878A1E81B78745C0005ACD9 /* WeatherFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878A1E61B78745C0005ACD9 /* WeatherFetcher.swift */; };
@@ -21,7 +21,7 @@
 		98BA27391B785EB00047549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BA27371B785EB00047549E /* Main.storyboard */; };
 		98BA273B1B785EB00047549E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BA273A1B785EB00047549E /* Assets.xcassets */; };
 		98BA273E1B785EB00047549E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BA273C1B785EB00047549E /* LaunchScreen.storyboard */; };
-		B97E303F9E4F93462892FD8E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9D028BA563C5ADB6DE2EE /* Pods.framework */; };
+		ED864A17A5FC46C258A513C8 /* Pods_SwinjectSimpleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C363554E82D6BAE7778E0C5D /* Pods_SwinjectSimpleExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94B7082C6BE00078D95CAB7A /* Pods-SwinjectSimpleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectSimpleExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E2C75E166B4623C203C0CD1 /* Pods-SwinjectSimpleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectSimpleExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample.release.xcconfig"; sourceTree = "<group>"; };
+		402B11EA723F74050B3BFEED /* Pods-SwinjectSimpleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectSimpleExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample.debug.xcconfig"; sourceTree = "<group>"; };
+		75F3A630B8AC583361FBBBC6 /* Pods-Tests-SwinjectSimpleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SwinjectSimpleExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SwinjectSimpleExampleTests/Pods-Tests-SwinjectSimpleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		981107851BFED52700B861E1 /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
 		9878A1E51B78745C0005ACD9 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		9878A1E61B78745C0005ACD9 /* WeatherFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetcher.swift; sourceTree = "<group>"; };
@@ -54,10 +56,10 @@
 		98BA27441B785EB00047549E /* SwinjectSimpleExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectSimpleExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BA274A1B785EB00047549E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC9D028BA563C5ADB6DE2EE /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0C431CBFC291F22B03349D1 /* Pods-SwinjectSimpleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectSimpleExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		AD5E5AC24C73CC53A00DCE57 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		B7A29B4448E7E0D4B438261D /* Pods_SwinjectSimpleExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectSimpleExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4E206BBF115DC7CF9A34E84 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE66F2F7A437F9B76690594 /* Pods-Tests-SwinjectSimpleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SwinjectSimpleExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SwinjectSimpleExampleTests/Pods-Tests-SwinjectSimpleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C363554E82D6BAE7778E0C5D /* Pods_SwinjectSimpleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectSimpleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D5A1A25F2E7FDE816F6C64 /* Pods_SwinjectSimpleExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectSimpleExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB811C27622E4C5CF7DA2098 /* Pods_Tests_SwinjectSimpleExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_SwinjectSimpleExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97E303F9E4F93462892FD8E /* Pods.framework in Frameworks */,
+				ED864A17A5FC46C258A513C8 /* Pods_SwinjectSimpleExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,20 +75,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D23A09513581907853700C6 /* Pods_SwinjectSimpleExampleTests.framework in Frameworks */,
+				4EA8D6F0EA4FCA389DD08B49 /* Pods_Tests_SwinjectSimpleExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7247C2E8C287F2560A21EA44 /* Pods */ = {
+		44E858AF6B27646EF1911023 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D4E206BBF115DC7CF9A34E84 /* Pods.debug.xcconfig */,
-				AD5E5AC24C73CC53A00DCE57 /* Pods.release.xcconfig */,
-				94B7082C6BE00078D95CAB7A /* Pods-SwinjectSimpleExampleTests.debug.xcconfig */,
-				A0C431CBFC291F22B03349D1 /* Pods-SwinjectSimpleExampleTests.release.xcconfig */,
+				75F3A630B8AC583361FBBBC6 /* Pods-Tests-SwinjectSimpleExampleTests.debug.xcconfig */,
+				AEE66F2F7A437F9B76690594 /* Pods-Tests-SwinjectSimpleExampleTests.release.xcconfig */,
+				402B11EA723F74050B3BFEED /* Pods-SwinjectSimpleExample.debug.xcconfig */,
+				0E2C75E166B4623C203C0CD1 /* Pods-SwinjectSimpleExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -117,8 +119,8 @@
 				98BA27321B785EB00047549E /* SwinjectSimpleExample */,
 				98BA27471B785EB00047549E /* SwinjectSimpleExampleTests */,
 				98BA27311B785EB00047549E /* Products */,
-				7247C2E8C287F2560A21EA44 /* Pods */,
 				E5F7EB17A867940550B4887E /* Frameworks */,
+				44E858AF6B27646EF1911023 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				9AC9D028BA563C5ADB6DE2EE /* Pods.framework */,
-				B7A29B4448E7E0D4B438261D /* Pods_SwinjectSimpleExampleTests.framework */,
+				E1D5A1A25F2E7FDE816F6C64 /* Pods_SwinjectSimpleExampleTests.framework */,
+				EB811C27622E4C5CF7DA2098 /* Pods_Tests_SwinjectSimpleExampleTests.framework */,
+				C363554E82D6BAE7778E0C5D /* Pods_SwinjectSimpleExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,12 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98BA274D1B785EB00047549E /* Build configuration list for PBXNativeTarget "SwinjectSimpleExample" */;
 			buildPhases = (
-				33D0E032E2D769FA3B52EFF7 /* Check Pods Manifest.lock */,
+				5571E716174FBF11117A4918 /* 📦 Check Pods Manifest.lock */,
 				98BA272C1B785EB00047549E /* Sources */,
 				98BA272D1B785EB00047549E /* Frameworks */,
 				98BA272E1B785EB00047549E /* Resources */,
-				2AA328394C17E77D766D931E /* Embed Pods Frameworks */,
-				9655420403379339C7A2DFEF /* Copy Pods Resources */,
+				60B551FF86ED29C847AB2603 /* 📦 Embed Pods Frameworks */,
+				2BC9D744A1FA7615B751D4D5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98BA27501B785EB00047549E /* Build configuration list for PBXNativeTarget "SwinjectSimpleExampleTests" */;
 			buildPhases = (
-				BAB49C0DD51ECF2427496948 /* Check Pods Manifest.lock */,
+				4E9B330C60BB567B71CAE062 /* 📦 Check Pods Manifest.lock */,
 				98BA27401B785EB00047549E /* Sources */,
 				98BA27411B785EB00047549E /* Frameworks */,
 				98BA27421B785EB00047549E /* Resources */,
-				DA1B5B3CABD12BEA005E8158 /* Embed Pods Frameworks */,
-				1868EA310AEDF483F6B88AB6 /* Copy Pods Resources */,
+				888C818BC4363DE8664F600B /* 📦 Embed Pods Frameworks */,
+				CA4A98C9403CB9C3E8941FEE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,44 +271,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1868EA310AEDF483F6B88AB6 /* Copy Pods Resources */ = {
+		2BC9D744A1FA7615B751D4D5 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2AA328394C17E77D766D931E /* Embed Pods Frameworks */ = {
+		4E9B330C60BB567B71CAE062 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		33D0E032E2D769FA3B52EFF7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,29 +301,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9655420403379339C7A2DFEF /* Copy Pods Resources */ = {
+		5571E716174FBF11117A4918 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BAB49C0DD51ECF2427496948 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,19 +316,49 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DA1B5B3CABD12BEA005E8158 /* Embed Pods Frameworks */ = {
+		60B551FF86ED29C847AB2603 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExampleTests/Pods-SwinjectSimpleExampleTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectSimpleExample/Pods-SwinjectSimpleExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888C818BC4363DE8664F600B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-SwinjectSimpleExampleTests/Pods-Tests-SwinjectSimpleExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4A98C9403CB9C3E8941FEE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-SwinjectSimpleExampleTests/Pods-Tests-SwinjectSimpleExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -497,7 +501,7 @@
 		};
 		98BA274E1B785EB00047549E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4E206BBF115DC7CF9A34E84 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 402B11EA723F74050B3BFEED /* Pods-SwinjectSimpleExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwinjectSimpleExample/Info.plist;
@@ -509,7 +513,7 @@
 		};
 		98BA274F1B785EB00047549E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD5E5AC24C73CC53A00DCE57 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0E2C75E166B4623C203C0CD1 /* Pods-SwinjectSimpleExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwinjectSimpleExample/Info.plist;
@@ -521,7 +525,7 @@
 		};
 		98BA27511B785EB00047549E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94B7082C6BE00078D95CAB7A /* Pods-SwinjectSimpleExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 75F3A630B8AC583361FBBBC6 /* Pods-Tests-SwinjectSimpleExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwinjectSimpleExampleTests/Info.plist;
@@ -534,7 +538,7 @@
 		};
 		98BA27521B785EB00047549E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0C431CBFC291F22B03349D1 /* Pods-SwinjectSimpleExampleTests.release.xcconfig */;
+			baseConfigurationReference = AEE66F2F7A437F9B76690594 /* Pods-Tests-SwinjectSimpleExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SwinjectSimpleExampleTests/Info.plist;

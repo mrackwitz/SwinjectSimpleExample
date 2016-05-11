@@ -5,17 +5,14 @@ use_frameworks!
 pod 'Alamofire', '~> 3.1.0'
 pod 'SwiftyJSON', '~> 2.3.0'
 pod 'Swinject', '0.5'
+pod 'RealmSwift'
 
+target 'SwinjectSimpleExample'
 
-def testing_pods
-    pod 'Quick', '0.8.0'
-    pod 'Nimble', '3.0.0'
+abstract_target 'Tests' do
+    target 'SwinjectSimpleExampleTests'
+    #target 'SwinjectSimpleExampleUITests'
+
+    pod 'Quick'
+    pod 'Nimble'
 end
-
-target 'SwinjectSimpleExampleTests' do
-    testing_pods
-end
-
-#target 'SwinjectSimpleExampleUITests' do
-#    testing_pods
-#end
